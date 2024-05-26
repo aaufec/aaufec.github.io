@@ -1,0 +1,252 @@
+.container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner {
+    background-color: #546df6;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 72px 42px;
+}
+
+@media (max-width: 991px) {
+    .banner {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+
+.banner-content {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+    .banner-content {
+        max-width: 100%;
+        flex-wrap: wrap;
+        padding-right: 20px;
+    }
+}
+
+.left-section {
+    display: flex;
+    padding-right: 9px;
+    gap: 20px;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+@media (max-width: 991px) {
+    .left-section {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+.circle-icon {
+    border-radius: 7px;
+    background-color: #f7f9fc;
+    width: 36px;
+    height: 36px;
+}
+
+.counter {
+    margin: auto 0;
+}
+
+@media (max-width: 991px) {
+    .counter {
+        max-width: 100%;
+    }
+}
+
+.right-section {
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+}
+
+.counter-center {
+    justify-content: center;
+}
+
+.signup-link {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+@media (max-width: 991px) {
+    .signup-link {
+        white-space: initial;
+    }
+}
+
+.signup-button {
+    font-family: Montserrat, sans-serif;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #ffd21e;
+    justify-content: center;
+    padding: 22px 24px;
+}
+
+@media (max-width: 991px) {
+    .signup-button {
+        white-space: initial;
+        padding: 0 20px;
+    }
+}
+
+.main-section {
+    margin-top: 65px;
+}
+
+@media (max-width: 991px) {
+    .main-section {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.content {
+    gap: 20px;
+    display: flex;
+}
+
+@media (max-width: 991px) {
+    .content {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+    }
+}
+
+.text-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 0px;
+}
+
+@media (max-width: 991px) {
+    .text-column {
+        width: 100%;
+    }
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    font-size: 25px;
+    color: #000;
+    margin: auto 0;
+}
+
+@media (max-width: 991px) {
+    .text-content {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.header-text {
+    color: #f7f9fc;
+    font: 900 40px Intro Demo, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .header-text {
+        max-width: 100%;
+    }
+}
+
+.body-text {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    margin-top: 49px;
+}
+
+@media (max-width: 991px) {
+    .body-text {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.login-link {
+    display: flex;
+    margin-top: 38px;
+    width: 131px;
+    max-width: 100%;
+    flex-direction: column;
+    font-weight: 400;
+    white-space: nowrap;
+    justify-content: center;
+}
+
+@media (max-width: 991px) {
+    .login-link {
+        white-space: initial;
+    }
+}
+
+.login-button {
+    font-family: Montserrat, sans-serif;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #ffd21e;
+    align-items: start;
+    justify-content: center;
+    padding: 28px 24px;
+}
+
+@media (max-width: 991px) {
+    .login-button {
+        white-space: initial;
+        padding: 0 20px;
+    }
+}
+
+.image-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+    .image-column {
+        width: 100%;
+    }
+}
+
+.image {
+    aspect-ratio: 1.06;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+    .image {
+        max-width: 100%;
+        margin-top: 17px;
+    }
+}
+    
